@@ -1,0 +1,22 @@
+@font-face{
+    font-family:mitipo;
+    src:url(fuente.wof);
+}
+body{
+    margin: 0;
+    font-family: mitipo;
+}
+h2{
+  text-align: center 
+}
+p{
+    color: blue;
+    text-align: center; 
+}
+.pie{
+	clear: both;
+	background: #cbcbcb; /* SIN TRANSPARENCIA: rgb(203, 203, 203); */ /* CON TRANSPARENCIA: rgba(150, 150, 150, .5); */ /* CON TRANSPARENCIA: #c8c6ba */ /* NO HABIA NADA, ESTO ES NUEVO */
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
